@@ -13,7 +13,7 @@ Create a new resource that will handle POST requests for the /event endpoint. It
 
 - [x] An event argument of the str type. If this argument is missing, please, respond with the following error message: The event name is required!
 - [x] A date argument of the inputs.date type. If this argument is missing or it has the wrong format, please, respond with the following error message: The event date with the correct format is required! The correct format is `YYYY-MM-DD`!
-- [x]If a user sends the correct response, display the following message: The event has been added!, and show the user data:
+- [x] If a user sends the correct response, display the following message: The event has been added!, and show the user data:
 ```
 {
     "message": "The event has been added!",
